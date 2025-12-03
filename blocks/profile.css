@@ -1,0 +1,65 @@
+.profile {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #212121;
+  padding-bottom: 20px;
+}
+
+.profile__div {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  column-gap: 20px;
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas:
+    "image image name name"
+    "image image description ."
+    "image image . . "
+    "image image . . "
+    "image image edit-profile .";
+}
+
+.profile__avatar {
+  grid-area: image;
+}
+
+.profile__name {
+  grid-area: name;
+  margin: 0 0 12px;
+  padding: 0;
+}
+
+.profile__description {
+  grid-area: description;
+  margin: 0;
+  padding: 0;
+}
+
+.profile__link_edit-profile {
+  grid-area: edit-profile;
+  text-decoration: none;
+  color: #212121;
+  font-size: 16px;
+  line-height: 100%;
+}
+
+.profile__button_new-post {
+  background-color: #212121;
+  max-width: 149px;
+  width: 100%;
+  height: 52px;
+  border-radius: 8px;
+  font-weight: medium;
+  font-size: 16px;
+  line-height: 100%;
+  color: #fcf5e5;
+  align-self: flex-end;
+  display: flex;
+  column-gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile__button_new-post_icon {
+  max-width: 12px;
+  max-height: 12px;
+}
