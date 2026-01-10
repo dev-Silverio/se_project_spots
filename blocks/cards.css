@@ -27,6 +27,15 @@
   }
 }
 
+@media screen and (max-width: 630px) {
+  .cards__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 288px);
+    grid-template-rows: auto;
+    justify-content: center;
+  }
+}
+
 .card__container {
   max-width: 413px;
   width: 100%;
@@ -46,6 +55,12 @@
   object-fit: cover;
 }
 
+@media screen and (max-width: 630px) {
+  .card__image {
+    height: 288px;
+  }
+}
+
 .card__caption {
   margin: 0;
   font-weight: 500;
@@ -60,6 +75,10 @@
   background: none;
   border: 0;
   opacity: 40%;
+}
+
+.card__like-button:hover {
+  opacity: 100%;
 }
 
 .card__like-button_icon {

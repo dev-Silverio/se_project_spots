@@ -93,6 +93,10 @@
   opacity: 70%;
 }
 
+.profile__link_edit-profile:hover {
+  opacity: 100%;
+}
+
 @media screen and (max-width: 630px) {
   .profile__link_edit-profile {
     margin: 32px 0 20px;
@@ -111,6 +115,10 @@
   column-gap: 8px;
   justify-content: center;
   align-items: center;
+}
+
+.profile__button_new-post:hover {
+  opacity: 80%;
 }
 
 @media screen and (max-width: 630px) {
