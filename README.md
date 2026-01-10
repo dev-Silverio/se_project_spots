@@ -1,21 +1,28 @@
-# Project 3: Spots
+# Project Spots
 
 ### Overview  
 
 * Intro  
-* Figma  
+* Tech 
 * Images  
   
 **Intro**
   
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
+Project Spots is all about creating an exceptonally optimized and highly responsive web design that adapts to many common screen sizes ranging from as small as, 320px, to upwards of 1440px.  
   
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
+**Tech**  
+
+Spots makes full use of html and css employing many of their tools to ensure its optimization and responsiveness. One example of such a tool is the use of media queries allowing the web page
+to reorient its content to fit for varying screen sizes.
   
 **Images**  
   
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
+  Screenshots of web page at varying screen sizes:
   
-Good luck and have fun!
+  <img width="1442" height="1165" alt="Screenshot 2026-01-09 185623" src="https://github.com/user-attachments/assets/648aeba8-732f-4507-bfb5-97e84ceb2b38" />
+  
+  <img width="1319" height="1153" alt="Screenshot 2026-01-09 185806" src="https://github.com/user-attachments/assets/718c275a-8a76-43ba-8f00-e71e2f2012bf" />
+  
+  <img width="633" height="1167" alt="Screenshot 2026-01-09 185836" src="https://github.com/user-attachments/assets/de9abcb1-d18e-4263-bb72-6538bf077b9e" />
+
+
