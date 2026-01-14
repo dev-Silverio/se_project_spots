@@ -77,7 +77,7 @@
   opacity: 40%;
 }
 
-.card__button:hover {
+.card__git button:hover {
   opacity: 100%;
 }
 
