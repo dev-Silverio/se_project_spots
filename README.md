@@ -4,7 +4,9 @@
 
 * Intro  
 * Tech 
-* Images  
+* Images
+* Page Link
+* Video Pitch Link 
   
 **Intro**
   
@@ -24,5 +26,11 @@ to reorient its content to fit for varying screen sizes.
   <img width="1319" height="1153" alt="Screenshot 2026-01-09 185806" src="https://github.com/user-attachments/assets/718c275a-8a76-43ba-8f00-e71e2f2012bf" />
   
   <img width="633" height="1167" alt="Screenshot 2026-01-09 185836" src="https://github.com/user-attachments/assets/de9abcb1-d18e-4263-bb72-6538bf077b9e" />
+
+  **Page Link**
+  [Spots](https://dev-silverio.github.io/se_project_spots/)
+
+  **Video Pitch Link**
+  [Video Pitch](https://drive.google.com/file/d/1Es-ZfhLm7vS1Dmd74lo4FcDTqbMZHEP1/view?usp=drive_link)
 
 
