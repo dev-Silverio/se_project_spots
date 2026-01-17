@@ -82,23 +82,24 @@
   -webkit-box-orient: vertical;
 }
 
-.profile__link_edit-profile {
+.profile__button_edit-profile {
   grid-area: edit-profile;
   display: flex;
   column-gap: 8px;
-  text-decoration: none;
   color: #212121;
   font-size: 16px;
   line-height: 100%;
   opacity: 70%;
+  background-color: #fcf5e5;
+  border: none;
 }
 
-.profile__link_edit-profile:hover {
+.profile__button_edit-profile:hover {
   opacity: 100%;
 }
 
 @media screen and (max-width: 630px) {
-  .profile__link_edit-profile {
+  .profile__button_edit-profile {
     margin: 32px 0 20px;
   }
 }
@@ -128,7 +129,7 @@
   }
 }
 
-.profile__button_icon {
+.profile__new-post_icon {
   max-width: 12px;
   max-height: 12px;
 }

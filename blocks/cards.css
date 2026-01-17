@@ -1,4 +1,4 @@
-.card__container {
+.cards__list {
   list-style-type: none;
   padding: 0;
   display: grid;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 1320px) {
-  .card__container {
+  .cards__list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
@@ -19,7 +19,7 @@
 }
 
 @media screen and (max-width: 880px) {
-  .card__container {
+  .cards__list {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
@@ -28,7 +28,7 @@
 }
 
 @media screen and (max-width: 630px) {
-  .card__container {
+  .cards__list {
     display: grid;
     grid-template-columns: repeat(auto-fit, 288px);
     grid-template-rows: auto;
@@ -36,18 +36,18 @@
   }
 }
 
-.card {
+.cards__list_item {
   max-width: 413px;
   width: 100%;
 }
 
-.card__content {
+.cards__content {
   display: flex;
   justify-content: space-between;
   margin-top: 8px;
 }
 
-.card__image {
+.cards__image {
   border-radius: 10px;
   max-height: 413px;
   width: 100%;
@@ -56,12 +56,12 @@
 }
 
 @media screen and (max-width: 630px) {
-  .card__image {
+  .cards__image {
     height: 288px;
   }
 }
 
-.card__caption {
+.cards__caption {
   margin: 0;
   font-weight: 500;
   line-height: 120%;
@@ -71,17 +71,17 @@
   overflow: hidden;
 }
 
-.card__button {
+.cards__button {
   background: none;
   border: 0;
   opacity: 40%;
 }
 
-.card__git button:hover {
+.cards__button:hover {
   opacity: 100%;
 }
 
-.card__button_icon {
+.cards__button_icon {
   max-width: 23px;
   max-height: 20px;
 }
