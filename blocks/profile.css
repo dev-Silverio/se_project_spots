@@ -93,6 +93,7 @@
   opacity: 70%;
   background-color: #fcf5e5;
   border: none;
+  cursor: pointer;
 }
 
 .profile__button_edit-profile:hover {
@@ -118,6 +119,7 @@
   column-gap: 8px;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .profile__button_new-post:hover {
@@ -131,7 +133,7 @@
   }
 }
 
-.profile__new-post_icon {
+.profile__new-post-icon {
   max-width: 12px;
   max-height: 12px;
 }
