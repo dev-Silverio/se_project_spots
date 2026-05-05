@@ -22,13 +22,6 @@
   }
 }
 
-@media screen and (max-width: 630px) {
-  .cards__list {
-    grid-template-columns: repeat(auto-fit, 288px);
-    justify-content: center;
-  }
-}
-
 .cards__list-item {
   max-width: 413px;
   width: 100%;
@@ -51,6 +44,10 @@
 @media screen and (max-width: 630px) {
   .cards__image {
     height: 288px;
+  }
+  .cards__list {
+    grid-template-columns: repeat(auto-fit, 288px);
+    justify-content: center;
   }
 }
 
